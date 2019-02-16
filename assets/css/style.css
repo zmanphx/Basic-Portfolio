@@ -1,0 +1,196 @@
+body{
+
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
+    width: 1024px;
+}
+
+header{
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 270px;
+    height: 75px ;
+    margin-top: 45px;
+    border-color: #cccccc;
+    }
+
+.header_div{
+
+            margin-top: 30px;
+            margin-bottom : 0px;
+            position: relative;
+            padding-left: 30px;
+}
+.Mike{  margin: 0px;
+         padding-top: 20px;
+         padding-left: 5px;
+         position: relative;
+        
+        background-color:#4aaaa5;
+        width: 250px;
+       
+}
+
+
+
+#div_ul{
+     float: right;
+   
+     width:320px;
+    height: 45px;
+    margin-top: -60px;
+}
+
+li{
+   
+    display:inline;
+    display:inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-left: solid 1px black;
+    zoom:1;
+    /*
+    additional styles to make it look nice
+    */
+ }
+ li:first-child{
+    border-left: none;
+}
+
+    
+.contentP_div{ background-image: url("../images/sandpaper.png");
+         
+         border-bottom: 4px solid #4aaaa5;
+         border-top: 2px solid rgb(235, 228, 228);
+        margin-top: 0px;
+        height: auto;
+        padding-top: 8px;
+        padding-bottom: 40px;
+        
+}
+
+hr {
+     margin-left: 20px;
+     margin-right: 20px;
+    }
+#Pic{ float: left;
+    margin: 0 20px 20px 0;
+    padding-left: 10px;
+
+}
+
+p{  margin-right: 15px;
+    text-align: left;
+    text-indent: 2em;
+    margin-left: 20px;
+}    
+.content_section{ 
+            width: 960px;
+            background-color:#ffffff;
+            margin: 0 auto;
+            border: 3px solid #dddddd;
+            overflow: auto;
+            }
+
+/* this is for the grid section  portofolio   */
+ .content_sectionP{ 
+              width: 600px;
+                background-color:#ffffff;
+                margin-left: 29px;
+                border: 3px solid #dddddd;
+    }
+
+    .contentP_div h1{ color:#4aaaa5;
+                             padding-left: 20px;
+
+
+                     }
+           
+
+.grid{ display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: repeat(3,120px);
+        grid-column-gap:  35px;
+        grid-row-gap: 25px;
+        margin-top: 20px;
+        justify-items:center;
+        justify-content: center;
+        width: 350px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Pic{
+        position: relative;
+        width: 160px;
+        height: 120px;
+        object-fit: cover;
+        z-index: 0;
+
+    }
+           
+    .port_label{
+                 position: absolute;
+                background-color: #4aaaa5;
+                color: white;
+                font-family:'Georgia', Times, Times New Roman, serif;
+                margin:0;
+                height: 20px;
+                width: 130px;
+                text-align: center;
+                margin-top: -30px;
+                margin-left: 14px;
+                z-index: 4;
+                }
+
+                    
+    
+    }
+
+
+
+.content_section h1{ clear: both;
+                  } 
+           
+                                 
+
+form{ padding-left:20px;}
+
+
+.name, .email{
+         width: 915px; 
+         height: 20px; 
+         margin-top: 5px;
+}
+
+.message{ width: 915px;
+          height: 200px; 
+          margin-top: 5px;
+
+}
+
+.submit{   margin-top: 10px;
+           margin-bottom: 10px;
+           background-color: #4aaaa5;
+           height: 35px;
+           width: 85px;
+        
+        }
+
+ footer{
+    background-color:#666666;
+    margin-bottom: 0;
+    height: 35px;
+    position: absolute;
+    width: 1024px;
+ }
+
+ .copyright{ color:white;
+             margin: auto;
+             width: 100px;
+             padding-top: 15px;
+             font-size: 10px;
+             
+             }
